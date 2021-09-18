@@ -15,6 +15,12 @@
 		0F86819326DEF0DB004E698A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F86819126DEF0DB004E698A /* LaunchScreen.storyboard */; };
 		0F86819E26DEF0DB004E698A /* BrinquedotecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F86819D26DEF0DB004E698A /* BrinquedotecaTests.swift */; };
 		0F8681A926DEF0DB004E698A /* BrinquedotecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8681A826DEF0DB004E698A /* BrinquedotecaUITests.swift */; };
+		0F8691F126E70D5000F695AC /* BrinquedoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8691F026E70D5000F695AC /* BrinquedoItem.swift */; };
+		0F8691F326E70EF900F695AC /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8691F226E70EF900F695AC /* ListTableViewController.swift */; };
+		0F8691F526E7115000F695AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F8691F426E7115000F695AC /* GoogleService-Info.plist */; };
+		33882E641A69A28E764D6CCF /* Pods_Brinquedoteca_BrinquedotecaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FB1AC6EEA1A3E70FBAE0E7 /* Pods_Brinquedoteca_BrinquedotecaUITests.framework */; };
+		A07F9943149730B6DA09B75B /* Pods_Brinquedoteca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F06B9398B46662C3C536E2B /* Pods_Brinquedoteca.framework */; };
+		E6CEF46B81EB797FED2D2EBE /* Pods_BrinquedotecaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC76EB27A5F607B96D0F031A /* Pods_BrinquedotecaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,18 @@
 		0F8681A426DEF0DB004E698A /* BrinquedotecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrinquedotecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8681A826DEF0DB004E698A /* BrinquedotecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrinquedotecaUITests.swift; sourceTree = "<group>"; };
 		0F8681AA26DEF0DB004E698A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8691F026E70D5000F695AC /* BrinquedoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrinquedoItem.swift; sourceTree = "<group>"; };
+		0F8691F226E70EF900F695AC /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		0F8691F426E7115000F695AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23258D51F197CD10BCA67770 /* Pods-Brinquedoteca-BrinquedotecaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brinquedoteca-BrinquedotecaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Brinquedoteca-BrinquedotecaUITests/Pods-Brinquedoteca-BrinquedotecaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D668DAD2ADA20CB6B363081 /* Pods-Brinquedoteca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brinquedoteca.debug.xcconfig"; path = "Target Support Files/Pods-Brinquedoteca/Pods-Brinquedoteca.debug.xcconfig"; sourceTree = "<group>"; };
+		797926B406609A2EF7E3FF14 /* Pods-Brinquedoteca-BrinquedotecaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brinquedoteca-BrinquedotecaUITests.release.xcconfig"; path = "Target Support Files/Pods-Brinquedoteca-BrinquedotecaUITests/Pods-Brinquedoteca-BrinquedotecaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F06B9398B46662C3C536E2B /* Pods_Brinquedoteca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brinquedoteca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D67F9DFADD7A48FF9062D5 /* Pods-BrinquedotecaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrinquedotecaTests.release.xcconfig"; path = "Target Support Files/Pods-BrinquedotecaTests/Pods-BrinquedotecaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5FB1AC6EEA1A3E70FBAE0E7 /* Pods_Brinquedoteca_BrinquedotecaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brinquedoteca_BrinquedotecaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB61C6F869A8D8E4DC617C80 /* Pods-Brinquedoteca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brinquedoteca.release.xcconfig"; path = "Target Support Files/Pods-Brinquedoteca/Pods-Brinquedoteca.release.xcconfig"; sourceTree = "<group>"; };
+		EC76EB27A5F607B96D0F031A /* Pods_BrinquedotecaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrinquedotecaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C2C049F1DC32A2CED33C11 /* Pods-BrinquedotecaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrinquedotecaTests.debug.xcconfig"; path = "Target Support Files/Pods-BrinquedotecaTests/Pods-BrinquedotecaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07F9943149730B6DA09B75B /* Pods_Brinquedoteca.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CEF46B81EB797FED2D2EBE /* Pods_BrinquedotecaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33882E641A69A28E764D6CCF /* Pods_Brinquedoteca_BrinquedotecaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				0F86819C26DEF0DB004E698A /* BrinquedotecaTests */,
 				0F8681A726DEF0DB004E698A /* BrinquedotecaUITests */,
 				0F86818426DEF0D4004E698A /* Products */,
+				AA4298B63EF0DD9B5298AFC4 /* Pods */,
+				521A5BE046B0B0324B6E2B81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +122,16 @@
 		0F86818526DEF0D4004E698A /* Brinquedoteca */ = {
 			isa = PBXGroup;
 			children = (
+				0F8691F426E7115000F695AC /* GoogleService-Info.plist */,
 				0F86818626DEF0D4004E698A /* AppDelegate.swift */,
 				0F86818826DEF0D4004E698A /* SceneDelegate.swift */,
 				0F86818A26DEF0D4004E698A /* ViewController.swift */,
+				0F8691F026E70D5000F695AC /* BrinquedoItem.swift */,
 				0F86818C26DEF0D4004E698A /* Main.storyboard */,
 				0F86818F26DEF0DB004E698A /* Assets.xcassets */,
 				0F86819126DEF0DB004E698A /* LaunchScreen.storyboard */,
 				0F86819426DEF0DB004E698A /* Info.plist */,
+				0F8691F226E70EF900F695AC /* ListTableViewController.swift */,
 			);
 			path = Brinquedoteca;
 			sourceTree = "<group>";
@@ -128,6 +154,30 @@
 			path = BrinquedotecaUITests;
 			sourceTree = "<group>";
 		};
+		521A5BE046B0B0324B6E2B81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F06B9398B46662C3C536E2B /* Pods_Brinquedoteca.framework */,
+				D5FB1AC6EEA1A3E70FBAE0E7 /* Pods_Brinquedoteca_BrinquedotecaUITests.framework */,
+				EC76EB27A5F607B96D0F031A /* Pods_BrinquedotecaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA4298B63EF0DD9B5298AFC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D668DAD2ADA20CB6B363081 /* Pods-Brinquedoteca.debug.xcconfig */,
+				EB61C6F869A8D8E4DC617C80 /* Pods-Brinquedoteca.release.xcconfig */,
+				23258D51F197CD10BCA67770 /* Pods-Brinquedoteca-BrinquedotecaUITests.debug.xcconfig */,
+				797926B406609A2EF7E3FF14 /* Pods-Brinquedoteca-BrinquedotecaUITests.release.xcconfig */,
+				F9C2C049F1DC32A2CED33C11 /* Pods-BrinquedotecaTests.debug.xcconfig */,
+				C3D67F9DFADD7A48FF9062D5 /* Pods-BrinquedotecaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8681AD26DEF0DB004E698A /* Build configuration list for PBXNativeTarget "Brinquedoteca" */;
 			buildPhases = (
+				9363F29306C7B46DB7A97DDA /* [CP] Check Pods Manifest.lock */,
 				0F86817F26DEF0D4004E698A /* Sources */,
 				0F86818026DEF0D4004E698A /* Frameworks */,
 				0F86818126DEF0D4004E698A /* Resources */,
+				D1A8F2567E240D6B89FE351B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8681B026DEF0DB004E698A /* Build configuration list for PBXNativeTarget "BrinquedotecaTests" */;
 			buildPhases = (
+				59A8C7AFF9BB83730962C379 /* [CP] Check Pods Manifest.lock */,
 				0F86819526DEF0DB004E698A /* Sources */,
 				0F86819626DEF0DB004E698A /* Frameworks */,
 				0F86819726DEF0DB004E698A /* Resources */,
@@ -170,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F8681B326DEF0DB004E698A /* Build configuration list for PBXNativeTarget "BrinquedotecaUITests" */;
 			buildPhases = (
+				46B9787A8A41DB0C77240893 /* [CP] Check Pods Manifest.lock */,
 				0F8681A026DEF0DB004E698A /* Sources */,
 				0F8681A126DEF0DB004E698A /* Frameworks */,
 				0F8681A226DEF0DB004E698A /* Resources */,
+				C47023D685AD0AEE8486533A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F86819326DEF0DB004E698A /* LaunchScreen.storyboard in Resources */,
+				0F8691F526E7115000F695AC /* GoogleService-Info.plist in Resources */,
 				0F86819026DEF0DB004E698A /* Assets.xcassets in Resources */,
 				0F86818E26DEF0D4004E698A /* Main.storyboard in Resources */,
 			);
@@ -253,6 +309,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46B9787A8A41DB0C77240893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brinquedoteca-BrinquedotecaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A8C7AFF9BB83730962C379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrinquedotecaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9363F29306C7B46DB7A97DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brinquedoteca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47023D685AD0AEE8486533A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca-BrinquedotecaUITests/Pods-Brinquedoteca-BrinquedotecaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca-BrinquedotecaUITests/Pods-Brinquedoteca-BrinquedotecaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca-BrinquedotecaUITests/Pods-Brinquedoteca-BrinquedotecaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A8F2567E240D6B89FE351B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca/Pods-Brinquedoteca-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca/Pods-Brinquedoteca-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brinquedoteca/Pods-Brinquedoteca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F86817F26DEF0D4004E698A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +419,8 @@
 			files = (
 				0F86818B26DEF0D4004E698A /* ViewController.swift in Sources */,
 				0F86818726DEF0D4004E698A /* AppDelegate.swift in Sources */,
+				0F8691F126E70D5000F695AC /* BrinquedoItem.swift in Sources */,
+				0F8691F326E70EF900F695AC /* ListTableViewController.swift in Sources */,
 				0F86818926DEF0D4004E698A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +594,7 @@
 		};
 		0F8681AE26DEF0DB004E698A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D668DAD2ADA20CB6B363081 /* Pods-Brinquedoteca.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +613,7 @@
 		};
 		0F8681AF26DEF0DB004E698A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB61C6F869A8D8E4DC617C80 /* Pods-Brinquedoteca.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +632,7 @@
 		};
 		0F8681B126DEF0DB004E698A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C2C049F1DC32A2CED33C11 /* Pods-BrinquedotecaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +654,7 @@
 		};
 		0F8681B226DEF0DB004E698A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D67F9DFADD7A48FF9062D5 /* Pods-BrinquedotecaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +676,7 @@
 		};
 		0F8681B426DEF0DB004E698A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23258D51F197CD10BCA67770 /* Pods-Brinquedoteca-BrinquedotecaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +696,7 @@
 		};
 		0F8681B526DEF0DB004E698A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797926B406609A2EF7E3FF14 /* Pods-Brinquedoteca-BrinquedotecaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
